@@ -5,4 +5,4 @@ A repo playground for privacy by design.
 Try out PPDL
 
 ## DOING
-create a name replacing function
+create a name replacing function in GO
