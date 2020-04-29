@@ -5,4 +5,4 @@ A repo playground for privacy by design.
 Try out PPDL
 
 ## DOING
-create a anonymizing function: generate_random_name(hash(name))
+create an anonymizing function: generate_random_name(hash(name))
