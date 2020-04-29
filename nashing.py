@@ -2,11 +2,28 @@
 import pandas as pd
 
 
-#import train data from Kaggle Titanic
+import names
 
-train = pd.read_csv('train.csv')
+if __name__ == "__main__":
 
-#Hashing Names
+    #import train data from Kaggle Titanic
+
+    real_names = pd.read_csv('train.csv', usecols=["Name"])
+
+    print(real_names.head())
 
 
-#Pick a random name based on Hash
+    #Hashing Names
+
+    fake_names = real_names.apply(lambda x: names.get_full_name(),
+                                    axis=1)
+
+    print(fake_names.head())
+
+
+
+
+
+
+
+
